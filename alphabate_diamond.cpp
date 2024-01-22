@@ -14,13 +14,13 @@ int main(){
 		}
 		cout<<"\n";
 	}
-	for(int line=n+1;line<2*n-1;line++){
+	for(int line=n+1;line<=2*n-1;line++){
 		int no_of_spaces=(line-n);
 		for(int k=0;k< no_of_spaces;k++){
 			cout<<" ";
 		}
 		int no_of_chars=2*(2*n-line)-1;
-		for(int j=0;j<no_of_chars;j++){
+		for(int j=0;j<=no_of_chars;j++){
 			cout<<(char)('A'+j);
 		}
 		cout<<"\n";
