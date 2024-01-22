@@ -4,11 +4,14 @@ int main(){
 	int total,n,pick,remaining,remaining2,matchsticks;
 	total=21;
 	cout<<"total matchsticks:"<<total<<endl;
-		
+
 	for(n=1;n<5;n++){
 
 	cout<<"pick 1,2,3 or 4 matchsticks:"<<endl;
 	cin>>pick;
+	if(pick>4){
+		cout<<"invalid selection"<<endl;
+	}
 	remaining=total-pick;
 	
 	cout<<"remaining:"<<remaining<<endl;
